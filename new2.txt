@@ -1,2 +1,29 @@
-hello
-Bangladesh
+**Stage the changes**
+git add .
+
+**Commit the changes**
+git commit -m "Your commit message"
+
+**Push the changes**
+git push
+
+**Check the Current Branch**
+git branch
+git branch -a
+git branch -r
+
+**Switch to Another Branch**
+git switch <your-branch>
+git switch -c <your-branch>
+git checkout <your-branch>
+git checkout -b <your-branch> origin/<your-branch>
+
+**Pull the Latest Changes (Optional)**
+git pull origin <branch-name>
+
+git init 
+git add .
+git commit -m "commit"
+git branch -M main
+git remote add origin https://github.com/Kazirobin/app-2.git
+git push -u origin main
